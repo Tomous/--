@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28827322A99AB62BAA6DB158 /* libPods-二级列表.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E07E1C005803F7A79360CE /* libPods-二级列表.a */; };
 		8021418D20D8F18000687226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8021418C20D8F18000687226 /* AppDelegate.m */; };
 		8021419020D8F18000687226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8021418F20D8F18000687226 /* ViewController.m */; };
 		8021419320D8F18000687226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8021419120D8F18000687226 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		8021419B20D8F18100687226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8021419A20D8F18100687226 /* main.m */; };
 		802141A520D8F18100687226 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141A420D8F18100687226 /* ____Tests.m */; };
 		802141B020D8F18100687226 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141AF20D8F18100687226 /* ____UITests.m */; };
+		802141C420D8F28D00687226 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141C220D8F28D00687226 /* UIView+Extension.m */; };
+		802141C920D8F2F200687226 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141C720D8F2F200687226 /* CellModel.m */; };
+		802141CA20D8F2F200687226 /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141C820D8F2F200687226 /* HeaderModel.m */; };
+		802141CF20D8F2FC00687226 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141CB20D8F2FC00687226 /* Cell.m */; };
+		802141D020D8F2FC00687226 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802141CE20D8F2FC00687226 /* HeaderView.m */; };
+		802141D220D8F32400687226 /* 向下箭头-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 802141D120D8F32400687226 /* 向下箭头-4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EEDC5161137C90E09D02F92 /* Pods-二级列表.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-二级列表.debug.xcconfig"; path = "Pods/Target Support Files/Pods-二级列表/Pods-二级列表.debug.xcconfig"; sourceTree = "<group>"; };
+		47E07E1C005803F7A79360CE /* libPods-二级列表.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-二级列表.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8021418820D8F18000687226 /* 二级列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二级列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8021418B20D8F18000687226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8021418C20D8F18000687226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		802141AB20D8F18100687226 /* 二级列表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二级列表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802141AF20D8F18100687226 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		802141B120D8F18100687226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802141C120D8F24500687226 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		802141C220D8F28D00687226 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		802141C320D8F28D00687226 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		802141C520D8F2F200687226 /* HeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
+		802141C620D8F2F200687226 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		802141C720D8F2F200687226 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		802141C820D8F2F200687226 /* HeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
+		802141CB20D8F2FC00687226 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		802141CC20D8F2FC00687226 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		802141CD20D8F2FC00687226 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		802141CE20D8F2FC00687226 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		802141D120D8F32400687226 /* 向下箭头-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向下箭头-4.png"; sourceTree = "<group>"; };
+		E84A027F8BD28DCF0C45850A /* Pods-二级列表.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-二级列表.release.xcconfig"; path = "Pods/Target Support Files/Pods-二级列表/Pods-二级列表.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28827322A99AB62BAA6DB158 /* libPods-二级列表.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0999BC4545FC287A4085FB5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EEDC5161137C90E09D02F92 /* Pods-二级列表.debug.xcconfig */,
+				E84A027F8BD28DCF0C45850A /* Pods-二级列表.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D45F4FFB12DDF3DABA598C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47E07E1C005803F7A79360CE /* libPods-二级列表.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8021417F20D8F18000687226 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				802141A320D8F18100687226 /* 二级列表Tests */,
 				802141AE20D8F18100687226 /* 二级列表UITests */,
 				8021418920D8F18000687226 /* Products */,
+				0999BC4545FC287A4085FB5B /* Pods */,
+				7D45F4FFB12DDF3DABA598C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +143,19 @@
 		8021418A20D8F18000687226 /* 二级列表 */ = {
 			isa = PBXGroup;
 			children = (
+				802141BF20D8F1AA00687226 /* Controller */,
+				802141BD20D8F1AA00687226 /* Model */,
+				802141BE20D8F1AA00687226 /* View */,
 				8021418B20D8F18000687226 /* AppDelegate.h */,
 				8021418C20D8F18000687226 /* AppDelegate.m */,
-				8021418E20D8F18000687226 /* ViewController.h */,
-				8021418F20D8F18000687226 /* ViewController.m */,
+				802141C320D8F28D00687226 /* UIView+Extension.h */,
+				802141C220D8F28D00687226 /* UIView+Extension.m */,
 				8021419120D8F18000687226 /* Main.storyboard */,
 				8021419420D8F18100687226 /* Assets.xcassets */,
 				8021419620D8F18100687226 /* LaunchScreen.storyboard */,
 				8021419920D8F18100687226 /* Info.plist */,
 				8021419A20D8F18100687226 /* main.m */,
+				802141C120D8F24500687226 /* PrefixHeader.pch */,
 			);
 			path = "二级列表";
 			sourceTree = "<group>";
@@ -132,6 +178,38 @@
 			path = "二级列表UITests";
 			sourceTree = "<group>";
 		};
+		802141BD20D8F1AA00687226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				802141C620D8F2F200687226 /* CellModel.h */,
+				802141C720D8F2F200687226 /* CellModel.m */,
+				802141C520D8F2F200687226 /* HeaderModel.h */,
+				802141C820D8F2F200687226 /* HeaderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		802141BE20D8F1AA00687226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				802141CD20D8F2FC00687226 /* Cell.h */,
+				802141CB20D8F2FC00687226 /* Cell.m */,
+				802141CC20D8F2FC00687226 /* HeaderView.h */,
+				802141CE20D8F2FC00687226 /* HeaderView.m */,
+				802141D120D8F32400687226 /* 向下箭头-4.png */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		802141BF20D8F1AA00687226 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8021418E20D8F18000687226 /* ViewController.h */,
+				8021418F20D8F18000687226 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 802141B420D8F18100687226 /* Build configuration list for PBXNativeTarget "二级列表" */;
 			buildPhases = (
+				908443B261A7A12039D955DD /* [CP] Check Pods Manifest.lock */,
 				8021418420D8F18000687226 /* Sources */,
 				8021418520D8F18000687226 /* Frameworks */,
 				8021418620D8F18000687226 /* Resources */,
@@ -238,6 +317,7 @@
 				8021419820D8F18100687226 /* LaunchScreen.storyboard in Resources */,
 				8021419520D8F18100687226 /* Assets.xcassets in Resources */,
 				8021419320D8F18000687226 /* Main.storyboard in Resources */,
+				802141D220D8F32400687226 /* 向下箭头-4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +337,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		908443B261A7A12039D955DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-二级列表-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8021418420D8F18000687226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +365,12 @@
 			files = (
 				8021419020D8F18000687226 /* ViewController.m in Sources */,
 				8021419B20D8F18100687226 /* main.m in Sources */,
+				802141CA20D8F2F200687226 /* HeaderModel.m in Sources */,
+				802141D020D8F2FC00687226 /* HeaderView.m in Sources */,
+				802141C420D8F28D00687226 /* UIView+Extension.m in Sources */,
+				802141C920D8F2F200687226 /* CellModel.m in Sources */,
 				8021418D20D8F18000687226 /* AppDelegate.m in Sources */,
+				802141CF20D8F2FC00687226 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +537,12 @@
 		};
 		802141B520D8F18100687226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEDC5161137C90E09D02F92 /* Pods-二级列表.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M73FT4GVKP;
+				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/二级列表/PrefixHeader.pch";
 				INFOPLIST_FILE = "二级列表/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +556,12 @@
 		};
 		802141B620D8F18100687226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84A027F8BD28DCF0C45850A /* Pods-二级列表.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M73FT4GVKP;
+				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/二级列表/PrefixHeader.pch";
 				INFOPLIST_FILE = "二级列表/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

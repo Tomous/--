@@ -1,0 +1,16 @@
+PODS:
+  - MJExtension (3.0.15)
+
+DEPENDENCIES:
+  - MJExtension (~> 3.0.13)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+
+SPEC CHECKSUMS:
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+
+PODFILE CHECKSUM: 7b74c0782e40c51158d7ae4dc25abca23afa63a1
+
+COCOAPODS: 1.5.2
