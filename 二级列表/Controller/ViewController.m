@@ -81,11 +81,7 @@
                                             }]
                           }];
     
-    for (NSDictionary *dict in data) {
-        
-        HeaderModel *header = [[HeaderModel alloc]initWithDictionary:dict];
-        [self.data addObject:header];
-    }
+    self.data = [HeaderModel mj_objectArrayWithKeyValuesArray:data];
     
     
     self.headViewArray = [NSMutableArray array];

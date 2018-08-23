@@ -7,7 +7,7 @@
 //
 
 #import "CellModel.h"
-#import "MJExtension.h"
+
 @implementation CellModel
 MJCodingImplementation
 @end

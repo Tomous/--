@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "MJExtension.h"
 @interface CellModel : NSObject
 @property (nonatomic,copy) NSString *content;
 @end

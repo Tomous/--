@@ -10,6 +10,5 @@
 #import "CellModel.h"
 @interface HeaderModel : NSObject
 @property (nonatomic,copy) NSString *title;
-@property (nonatomic,strong) NSArray<CellModel *> *cellData;
--(instancetype)initWithDictionary:(NSDictionary *)dict;
+@property (nonatomic,strong) NSArray *cellData;
 @end
